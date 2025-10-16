@@ -1,0 +1,1 @@
+import{_ as n,c as o,o as r,a as t}from"./index-CFcngOYM.js";const _={};function a(s,e){return r(),o("div",null,[...e[0]||(e[0]=[t("h1",null,"404",-1)])])}const l=n(_,[["render",a]]);export{l as default};
