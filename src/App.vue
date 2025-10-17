@@ -1,7 +1,15 @@
+<script setup lang="ts">
+import TheFooter from './components/TheFooter.vue';
+import TheHeader from './components/TheHeader.vue';
+
+</script>
+
 <template>
-  <div class="flex flex-1 overflow-hidden bg-gray-50 py-16 leading-8 dark:bg-gray-900">
-    <div class="relative mx-auto h-full w-full max-w-screen-2xl overflow-y-auto bg-gray-50 dark:bg-gray-900 dark:text-white">
+  <div class="min-h-screen flex flex-col">
+    <TheHeader/>
+    <div class="flex-grow">
       <RouterView />
     </div>
+    <TheFooter/>
   </div>
 </template>
